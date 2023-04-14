@@ -9,7 +9,6 @@ import wikipedia
 import boto3
 from io import StringIO
 
-
 # SETUP LOGGING
 import logging
 from pythonjsonlogger import jsonlogger

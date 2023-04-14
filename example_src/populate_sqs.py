@@ -5,6 +5,7 @@ Dynamo to SQS
 import boto3
 import json
 
+
 DYNAMODB = boto3.resource("dynamodb")
 TABLE = "fang"
 QUEUE = "producer"

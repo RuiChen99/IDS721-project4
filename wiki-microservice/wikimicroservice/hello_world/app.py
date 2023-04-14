@@ -18,6 +18,7 @@ def lambda_handler(event, context):
     print(f"context: {context}, event: {event}")
     print(f"Response from wikipedia API: {nlp_res}")
     response = {
+        
         "statusCode": "200",
         "headers": {"Content-type": "application/json"},
         "body": json.dumps({"message": nlp_res}),
